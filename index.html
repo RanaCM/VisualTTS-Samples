@@ -51,7 +51,8 @@
           <div class="col-md-12">
  
             <h1><a class="text-light">VisualTTS: Text-to-Speech Synthesis with Visual Information <br> For Automatic Voice Over</h1><br> 
-             <font size=5><span style="color:#000000"> Authors: Junchen Lu, Berrak Sisman, Rui Liu, Mingyang Zhang, Haizhou Li </font>  </a>   
+             <font size=5><span style="color:#FFFFFF"> Authors: Junchen Lu, Berrak Sisman, Rui Liu, Mingyang Zhang, Haizhou Li <br><br></font>
+			 <font size=5><span style="color:#FFFFFF"> This page is currently under construction. <br> Speech samples will be updated soon. </font>	</a>   
             <p>
               <div class="row">
               </div>
@@ -67,22 +68,22 @@
       <div class="row" id="result">
         <div class="col-md-12">
         	<h5>Abstract:</h5> 
-			In this paper, we formulate a novel task of synthesizing human-like speech synchronized with a video clip of spoken utterance, denoted automatic voice over (AVO). Measuring lip-speech synchronization is an important indicator of the accuracy of duration alignment. A natural solution is to build a traditional text-to-speech (TTS) framework, which takes script as input to generate the synchronized speech. However, such models face performance limitation due to their ignorance of visual features, which can provide useful lip motion information. To this end, we propose a novel visual-enhanced TTS model, named <i>VisualTTS</i>, for accurate lip-speech synchronization. The proposed VisualTTS adopts two novel mechanisms that are 1) textual-visual attention, and 2) visual fusion strategy during acoustic decoding, which both contribute to forming accurate alignment between the input text content and lip motion in input lip image sequence. Experimental results show that VisualTTS achieves accurate lip-speech synchronization and outperforms all baseline systems.<br>
+			In this paper, we formulate a novel task to synthesize speech in sync with a silent pre-recorded video, denoted as automatic voice over (AVO). Unlike traditional speech synthesis, AVO seeks to generate not only human-sounding speech, but also perfect lip-speech synchronization. A natural solution to AVO is to condition the speech rendering on the temporal progression of lip sequence in the video. We propose a novel text-to-speech model that is conditioned on visual input, named <i>VisualTTS</i>, for accurate lip-speech synchronization. The proposed VisualTTS adopts two novel mechanisms that are 1) textual-visual attention, and 2) visual fusion strategy during acoustic decoding, which both contribute to forming accurate alignment between the input text content and lip motion in input lip sequence. Experimental results show that VisualTTS achieves accurate lip-speech synchronization and outperforms all baseline systems.<br>
 <br>
 <br>
-          <div style="text-align: center; width: 1100px; border: green solid 1px;">
+          <div style="text-align: center; width: 1100px;">
           	<img align="center" src="workflow.png"  width="600" height="200"  />
  				<br>
         <br>
-                    Fig. 1: The typical workflow of automatic voice over: An AVO framework takes lip image sequence and text script as input, and generates speech audio in sync with video.
+                    Fig. 1: The typical workflow of automatic voice over: <br> An AVO framework takes lip image sequence and text script as input, and generates speech audio in sync with video. <br>
                     
           </div>
-
-           <div style="text-align: center; width: 1100px; border: green solid 1px;">
+		<br>
+           <div style="text-align: center; width: 1100px;">
             <img align="center" src="model.png"  width="600" height="520"  />
         <br>
         <br>
-					Fig. 2: Model architecture of the proposed VisualTTS, that consists of a visual encoder, a textual encoder, a visual-guided aligner and an acoustic decoder. Pre-trained blocks are denoted with a lock.
+					Fig. 2: Model architecture of the proposed VisualTTS, that consists of visual encoder, textual encoder, visual-guided aligner and acoustic decoder. <br> Pre-trained blocks are denoted with a lock.
                     
           </div>
 
@@ -94,14 +95,14 @@
                      
                    
 
-        <div class="col">
+        <!--<div class="col">
           <h5>References</h5>
     
           [1] Yuxuan Wang, RJ Skerry-Ryan, Daisy Stanton, Yonghui Wu, Ron J Weiss, Navdeep Jaitly, Zongheng Yang, Ying Xiao, Zhifeng Chen, Samy Bengio, et al., “Tacotron:  Towards end-to-end  speech synthesis, ”arXiv preprint arXiv:1703.10135,2017.
           <br>
         
         
-        </div>
+        </div>-->
       </div>
       <!--<hr>
       <div class="row" id="contact">
@@ -111,10 +112,10 @@
           </div>
         </div> -->
 <div align="center" style="margin:auto;padding-top:10px">
-            <div style="width:20%">
-        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=ikRsfdaosDvlp5FPC8ESPOYxcatK16zJ5NDeYJ-r70I&cl=ffffff&w=a"></script>
+        <div style="width:50%">
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=YvIW2uh8CTeJY0rhYoMoKE6zPfPKHthroRgvJRTSdjg&cl=ffffff&w=a"></script>
         </div>
-        </div>
+</div>
 <br><br>
 
     </div>
